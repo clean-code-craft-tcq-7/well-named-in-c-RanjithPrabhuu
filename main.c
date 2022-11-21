@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <assert.h>
 #include "twentyFivePair_colour_code_config.h"
-#include "twentyFivePair_colour_code_get.h"
 #include "twentyFivePair_colour_code_test.h"
+#include "twentyFivePair_colour_code_display.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
