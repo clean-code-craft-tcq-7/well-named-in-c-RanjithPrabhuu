@@ -3,7 +3,7 @@
 #include "twentyFivePair_colour_code_get.h"
 
 //util fucntion to print colour pairs identified in strings.
-void ColorPairToString(const colorPair colorPair, char* buffer) {
+void ColorPairToString(const ColorPair colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
         MajorColorNames[colorPair.majorColor],
         MinorColorNames[colorPair.minorColor]);
