@@ -6,6 +6,6 @@
 //util fucntion to print colour pairs identified in strings.
 void ColorPairToString(const ColorPair colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
-        MajorColorNames[colorPair->majorColor],
-        MinorColorNames[colorPair->minorColor]);
+        MajorColorNames[colorPair.majorColor],
+        MinorColorNames[colorPair.minorColor]);
 }
