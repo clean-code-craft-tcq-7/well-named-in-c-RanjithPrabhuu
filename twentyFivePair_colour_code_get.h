@@ -1,7 +1,7 @@
 //structure which holds the major and minor colour of the colour code pairing
 typedef struct {
-    enum MajorColor majorColor;
-    enum MinorColor minorColor;
+    MajorColor majorColor;
+    MinorColor minorColor;
 } ColorPair;
 
 // function declaration to get the colour from the pair number.
