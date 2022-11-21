@@ -17,6 +17,6 @@ ColorPair GetColorFromPairNumber(int pairNumber)
 //function used to get the pair number by giving the input of the colour
 int GetPairNumberFromColor(const ColorPair colorPair) 
 {
-    return colorPair->majorColor * numberOfMinorColors +
-            colorPair->minorColor + 1;
+    return colorPair.majorColor * numberOfMinorColors +
+            colorPair.minorColor + 1;
 }
