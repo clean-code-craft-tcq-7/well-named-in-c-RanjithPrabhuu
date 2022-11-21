@@ -19,8 +19,3 @@ const char* MinorColorNames[] = {
 int numberOfMinorColors =
     sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
-//structure which holds the major and minor colour of the colour code pairing
-typedef struct {
-    enum MajorColor majorColor;
-    enum MinorColor minorColor;
-} ColorPair;
