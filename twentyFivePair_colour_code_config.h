@@ -1,4 +1,4 @@
-const int MAX_COLORPAIR_NAME_CHARS = 16;
+#define MAX_COLORPAIR_NAME_CHARS    16
 
 //enum which consists the major colours in the 25 pair colour code table.
 typedef enum 
