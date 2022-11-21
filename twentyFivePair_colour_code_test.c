@@ -5,7 +5,7 @@
 #include "twentyFivePair_colour_code_get.h"
 #include "twentyFivePair_colour_code_test.h"
 
-//function to check whether getting the number from pair is working fine.
+//function to check whether getting the colour from pair number is working fine.
 void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorColor expectedMinor)
 {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
@@ -16,7 +16,7 @@ void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorCol
     assert(colorPair.minorColor == expectedMinor);
 }
 
-//function to check whether getting the pair from number is working fine.
+//function to check whether getting the pair number from colour is working fine.
 void testPairToNumber(enum MajorColor major,enum MinorColor minor,int expectedPairNumber)
 {
     ColorPair colorPair;
