@@ -6,7 +6,7 @@
 #include "twentyFivePair_colour_code_test.h"
 
 //function to check whether getting the colour from pair number is working fine.
-void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorColor expectedMinor)
+void testNumberToPair(int pairNumber,MajorColor expectedMajor,MinorColor expectedMinor)
 {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
@@ -17,7 +17,7 @@ void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorCol
 }
 
 //function to check whether getting the pair number from colour is working fine.
-void testPairToNumber(enum MajorColor major,enum MinorColor minor,int expectedPairNumber)
+void testPairToNumber(MajorColor major,MinorColor minor,int expectedPairNumber)
 {
     ColorPair colorPair;
     colorPair.majorColor = major;
