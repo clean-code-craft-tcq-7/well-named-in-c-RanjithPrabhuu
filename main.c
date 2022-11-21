@@ -2,7 +2,6 @@
 #include <assert.h>
 #include "twentyFivePair_colour_code_config.h"
 #include "twentyFivePair_colour_code_get.h"
-#include "twentyFivePair_colour_code_util.h"
 #include "twentyFivePair_colour_code_test.h"
 
 int main() {
