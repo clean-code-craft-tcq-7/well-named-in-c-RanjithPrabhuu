@@ -4,3 +4,11 @@ const int MAX_COLORPAIR_NAME_CHARS = 16
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET}; 
 //enum which consists the minor colours in the 25 pair colour code table.
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
+
+//extern variables for major and minor colour names array
+extern const char* MajorColorNames[];
+extern const char* MinorColorNames[];
+
+//extern variables for total number of major and minor colours
+extern int numberOfMajorColors;
+extern int numberOfMinorColors;
