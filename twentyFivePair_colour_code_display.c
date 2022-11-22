@@ -10,6 +10,7 @@ void twentyFivePairColourCodeDisplay(void)
   int twentyFivePair_colour_code;
   ColorPair twentyFivePairColourPairVal;
   
+  printf("\n");
   printf("--twentyFivePairColourCodeDisplay--\n");
   printf("|  pair Number\t|\tColor pair\t|\n");
 
@@ -20,5 +21,5 @@ void twentyFivePairColourCodeDisplay(void)
       ColorPairToString(&twentyFivePairColourPairVal, twentyFivePair_colour_string_buffer);
       printf("|\t%d\t|\t%s\t|\n", twentyFivePair_colour_code, twentyFivePair_colour_string_buffer);
   }
-  printf("<<----------------------------------------->>\n");
+  
 }
