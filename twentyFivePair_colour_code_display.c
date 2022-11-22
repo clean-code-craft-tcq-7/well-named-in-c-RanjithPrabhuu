@@ -12,7 +12,7 @@ void twentyFivePairColourCodeDisplay(void)
   
   printf("\n");
   printf("--twentyFivePairColourCodeDisplay--\n");
-  printf("|       pair\t|\tColour\t      |\n");
+  printf("|       pair\t|\tColour\t        |\n");
 
   for(twentyFivePair_colour_code = 1; twentyFivePair_colour_code <= COLOUR_PAIR_SUPPORTED; twentyFivePair_colour_code++)
   {
