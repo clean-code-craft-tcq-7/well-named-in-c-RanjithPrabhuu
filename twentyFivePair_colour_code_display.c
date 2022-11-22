@@ -12,11 +12,11 @@ void twentyFivePairColourCodeDisplay(void)
   
   printf("\n");
   printf("--twentyFivePairColourCodeDisplay--\n");
-  printf("|  pair Number\t|\tColor pair\t|\n");
+  printf("|  pair\t|\tColour\t|\n");
 
-  for(twentyFivePair_colour_code = 1; twentyFivePair_colour_code <= COLOR_PAIR_SUPPORTED; twentyFivePair_colour_code++)
+  for(twentyFivePair_colour_code = 1; twentyFivePair_colour_code <= COLOUR_PAIR_SUPPORTED; twentyFivePair_colour_code++)
   {
-      memset(twentyFivePair_colour_string_buffer, 0, COLOR_PAIR_SUPPORTED);
+      memset(twentyFivePair_colour_string_buffer, 0, COLOUR_PAIR_SUPPORTED);
       twentyFivePairColourPairVal = GetColorFromPairNumber(twentyFivePair_colour_code);
       ColorPairToString(&twentyFivePairColourPairVal, twentyFivePair_colour_string_buffer);
       printf("|\t%d\t|\t%s\t|\n", twentyFivePair_colour_code, twentyFivePair_colour_string_buffer);
