@@ -11,7 +11,7 @@ void twentyFivePairColourCodeDisplay(void)
   ColorPair twentyFivePairColourPairVal;
   
   printf("--twentyFivePairColourCodeDisplay--\n");
-  printf("|pair Number\t|\tColor pair\t|\n");
+  printf("|  pair Number\t|\tColor pair\t|\n");
 
   for(twentyFivePair_colour_code = 1; twentyFivePair_colour_code <= COLOR_PAIR_SUPPORTED; twentyFivePair_colour_code++)
   {
