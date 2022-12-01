@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "twentyFivePair_colour_code_config.h"
-#include "twentyFivePair_colour_code_get.h"
+#include "colour_pair_code_config.h"
+#include "colour_pair_code_get.h"
 
 //util fucntion to print colour pairs identified in strings.
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
