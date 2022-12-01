@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
-#include "twentyFivePair_colour_code_config.h"
-#include "twentyFivePair_colour_code_get.h"
-#include "twentyFivePair_colour_code_test.h"
+#include "colour_pair_code_config.h"
+#include "colour_pair_code_get.h"
+#include "colour_pair_code_test.h"
 
 //function to check whether getting the colour from pair number is working fine.
 void testNumberToPair(int pairNumber,MajorColor expectedMajor,MinorColor expectedMinor)
