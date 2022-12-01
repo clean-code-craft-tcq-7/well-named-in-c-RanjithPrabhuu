@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "twentyFivePair_colour_code_config.h"
+#include "colour_pair_code_config.h"
 
 //array pointer to hold the names of the major colours
 const char* MajorColorNames[] = {
