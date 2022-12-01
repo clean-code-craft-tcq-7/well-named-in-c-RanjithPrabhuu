@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "twentyFivePair_colour_code_config.h"
-#include "twentyFivePair_colour_code_test.h"
-#include "twentyFivePair_colour_code_display.h"
+#include "colour_pair_code_config.h"
+#include "colour_pair_code_test.h"
+#include "colour_pair_code_display.h"
 
 int main() 
 {
