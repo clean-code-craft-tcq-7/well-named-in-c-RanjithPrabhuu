@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-#include "twentyFivePair_colour_code_config.h"
-#include "twentyFivePair_colour_code_get.h"
-#include "twentyFivePair_colour_code_display.h"
+#include "colour_pair_code_config.h"
+#include "colour_pair_code_get.h"
+#include "colour_pair_code_display.h"
 
 void twentyFivePairColourCodeDisplay(void)
 {
